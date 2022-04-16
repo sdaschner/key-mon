@@ -1,0 +1,11 @@
+= key-mon
+
+_Took repository to avoid re-builds and have a stable setup that works for me_.
+_All credits go to https://github.com/scottkirkwood/key-mon[scottkirkwood/key-mon]_
+
+== Build &amp; Run
+
+----
+pip install git+https://github.com/sdaschner/key-mon
+key-mon --nomouse --meta --key-timeout=0.1 --scale=1.5 --theme=clear
+----
