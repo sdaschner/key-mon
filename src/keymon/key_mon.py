@@ -237,6 +237,9 @@ class KeyMon:
         'KEY_SPACE': [
             fix_svg_key_closure(self.svg_name('two-line-wide'),
             [('TOP', 'Space'), ('BOTTOM', '')])],
+        'KEY_MENU': [
+            fix_svg_key_closure(self.svg_name('two-line-wide'),
+            [('TOP', 'Menu'), ('BOTTOM', '')])],
         'KEY_TAB': [
             fix_svg_key_closure(self.svg_name('two-line-wide'),
             [('TOP', 'Tab'), ('BOTTOM', '\N{Leftwards arrow to bar over rightwards arrow to bar}')])],
